@@ -4,9 +4,9 @@
   "license": "MIT",
   "scripts": {
   "build": "nx build api",
-  "start": "node dist/apps/api/main.js",
-  "test": "nx test"
-},
+  "start": "node dist/api/main.js"
+}
+,
   "private": true,
   "prisma": {
     "seed": "ts-node --transpile-only --compiler-options {\"module\":\"CommonJS\"} src/prisma/seed.ts",
